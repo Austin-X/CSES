@@ -8,7 +8,7 @@ int main() {
   int n, m, x;
   cin >> n >> m;
   int customers[m];
-  std::map<int, int> map;
+  map<int, int> map;
   for (int i = 0; i < n; i ++) {
     cin >> x;
     if (map.count(x) == 1) map[x] ++;
