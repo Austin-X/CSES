@@ -16,7 +16,6 @@ int main() {
   }
   for (int i = 0; i < m; i ++) cin >> customers[i];
 
-
   for (int i = 0; i < m; i ++) {
     auto it = map.upper_bound(customers[i]);
     if (it == map.begin()) cout << "-1\n";
